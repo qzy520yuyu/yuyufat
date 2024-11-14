@@ -1,0 +1,200 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 0 1505719209@qq.com, 0, LIC=AK1BF-6GXJJ-KUW4L-0RS7P-WTZ5S-3S3Y4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.35.0.2
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\15057\Desktop\新建文件夹\FBoard-c2\APP\proj_mdk_at32_kboard\proj_mdk\proj_mdk_at32_kboard.uvprojx
+Project File Date:  11/14/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'proj_mdk_at32_kboard'
+Note: source file '..\source\main\at32f425_clock.c' - object file renamed from '.\objects\at32f425_clock.o' to '.\objects\at32f425_clock_1.o'.
+assembling startup_at32f425.s...
+compiling system_at32f425.c...
+compiling at32f425_dma.c...
+compiling at32f425_misc.c...
+compiling at32f425_adc.c...
+compiling at32f425_gpio.c...
+compiling at32f425_can.c...
+compiling at32f425_ertc.c...
+compiling at32f425_crc.c...
+compiling at32f425_acc.c...
+compiling at32f425_debug.c...
+compiling at32f425_exint.c...
+compiling at32f425_usart.c...
+compiling at32f425_crm.c...
+compiling at32f425_flash.c...
+compiling at32f425_i2c.c...
+compiling at32f425_pwc.c...
+compiling at32f425_scfg.c...
+compiling at32f425_spi.c...
+compiling at32f425_tmr.c...
+compiling at32f425_wdt.c...
+compiling at32f425_wwdt.c...
+compiling at32f425_usb.c...
+compiling at32f425_int.c...
+compiling protocol_tlvc.c...
+compiling board.c...
+..\source\bsp\bsp_mcu_adc\bsp_mcu_adc.h(11): warning:  #1295-D: Deprecated declaration bsp_mcu_adc_deinit - give arg types
+   void bsp_mcu_adc_deinit();
+..\source\local\firmware\firmware.h(17): warning:  #1295-D: Deprecated declaration send_uid - give arg types
+  void send_uid();
+..\source\local\firmware\firmware.h(18): warning:  #1295-D: Deprecated declaration send_ver - give arg types
+  void send_ver();
+..\source\bsp\board.c: 3 warnings, 0 errors
+compiling crc.c...
+compiling at32f425_clock.c...
+compiling bsp_gpio_key.c...
+compiling bsp_mcu_adc.c...
+..\source\bsp\bsp_mcu_adc\bsp_mcu_adc.h(11): warning:  #1295-D: Deprecated declaration bsp_mcu_adc_deinit - give arg types
+   void bsp_mcu_adc_deinit();
+..\source\bsp\bsp_mcu_adc\bsp_mcu_adc.c(76): warning:  #1-D: last line of file ends without a newline
+  }
+..\source\bsp\bsp_mcu_adc\bsp_mcu_adc.c: 2 warnings, 0 errors
+compiling bsp_mcu_flash.c...
+compiling bsp_pixel_led.c...
+compiling bsp_usart3_dma_txrx.c...
+compiling firmware.c...
+..\source\local\firmware\firmware.h(17): warning:  #1295-D: Deprecated declaration send_uid - give arg types
+  void send_uid();
+..\source\local\firmware\firmware.h(18): warning:  #1295-D: Deprecated declaration send_ver - give arg types
+  void send_ver();
+..\source\local\firmware\firmware.c(45): warning:  #1-D: last line of file ends without a newline
+  }
+..\source\local\firmware\firmware.c: 3 warnings, 0 errors
+compiling bsp_mcu_iap.c...
+..\source\bsp\bsp_mcu_adc\bsp_mcu_adc.h(11): warning:  #1295-D: Deprecated declaration bsp_mcu_adc_deinit - give arg types
+   void bsp_mcu_adc_deinit();
+..\source\bsp\bsp_mcu_iap\bsp_mcu_iap.c: 1 warning, 0 errors
+compiling bsp_mcu_tim.c...
+..\source\bsp\bsp_mcu_tim\bsp_mcu_tim.c(29): warning:  #1-D: last line of file ends without a newline
+  }
+..\source\bsp\bsp_mcu_tim\bsp_mcu_tim.c: 1 warning, 0 errors
+compiling protocol_handler.c...
+..\source\local\protocol_handler\protocol_handler.h(16): warning:  #1295-D: Deprecated declaration tlvc_regist - give arg types
+  void tlvc_regist();
+..\source\local\ota_handler\ota_handler.h(47): warning:  #1295-D: Deprecated declaration ota_upgrade - give arg types
+  void ota_upgrade();
+..\source\local\ota_handler\ota_handler.h(48): warning:  #1295-D: Deprecated declaration ota_upgrade_flag - give arg types
+  void ota_upgrade_flag();
+..\source\local\led_handler\led_handler.h(21): warning:  #1295-D: Deprecated declaration led_start_show - give arg types
+  void led_start_show();
+..\source\local\firmware\firmware.h(17): warning:  #1295-D: Deprecated declaration send_uid - give arg types
+  void send_uid();
+..\source\local\firmware\firmware.h(18): warning:  #1295-D: Deprecated declaration send_ver - give arg types
+  void send_ver();
+..\source\local\protocol_handler\protocol_handler.c: 6 warnings, 0 errors
+compiling led_handler.c...
+..\source\local\led_handler\led_handler.h(21): warning:  #1295-D: Deprecated declaration led_start_show - give arg types
+  void led_start_show();
+..\source\local\led_handler\led_handler.c(33): warning:  #1-D: last line of file ends without a newline
+  }
+..\source\local\led_handler\led_handler.c: 2 warnings, 0 errors
+compiling ota_handler.c...
+..\source\local\ota_handler\ota_handler.h(47): warning:  #1295-D: Deprecated declaration ota_upgrade - give arg types
+  void ota_upgrade();
+..\source\local\ota_handler\ota_handler.h(48): warning:  #1295-D: Deprecated declaration ota_upgrade_flag - give arg types
+  void ota_upgrade_flag();
+..\source\local\firmware\firmware.h(17): warning:  #1295-D: Deprecated declaration send_uid - give arg types
+  void send_uid();
+..\source\local\firmware\firmware.h(18): warning:  #1295-D: Deprecated declaration send_ver - give arg types
+  void send_ver();
+..\source\local\ota_handler\ota_handler.c: 4 warnings, 0 errors
+compiling data_transer_local.c...
+..\source\local\data_transer_local\data_transer_local.c(47): warning:  #167-D: argument of type "packed_keyboard_t *" is incompatible with parameter of type "uint8_t *"
+  	uint16_t msg_len=prototol_tlvc_pack('$', 'F',"K",1, &packed_keys, sizeof(packed_keys), msg_buf,128);
+..\source\local\data_transer_local\data_transer_local.c: 1 warning, 0 errors
+compiling key_handler.c...
+..\source\local\key_handler\key_handler.h(7): warning:  #1295-D: Deprecated declaration convert_keys_to_notes - give arg types
+  void convert_keys_to_notes();
+..\source\local\key_handler\key_handler.h(8): warning:  #1295-D: Deprecated declaration bias_adc_update - give arg types
+  void bias_adc_update();
+..\source\local\key_handler\key_handler.h(9): warning:  #1295-D: Deprecated declaration arpstate_adc - give arg types
+  void arpstate_adc();
+..\source\local\key_handler\key_handler.h(10): warning:  #1295-D: Deprecated declaration bsp_key_gpio_scan - give arg types
+  void bsp_key_gpio_scan();
+..\source\bsp\bsp_mcu_adc\bsp_mcu_adc.h(11): warning:  #1295-D: Deprecated declaration bsp_mcu_adc_deinit - give arg types
+   void bsp_mcu_adc_deinit();
+..\source\local\key_handler\key_handler.c: 5 warnings, 0 errors
+compiling kboard.c...
+..\source\local\protocol_handler\protocol_handler.h(16): warning:  #1295-D: Deprecated declaration tlvc_regist - give arg types
+  void tlvc_regist();
+..\source\local\ota_handler\ota_handler.h(47): warning:  #1295-D: Deprecated declaration ota_upgrade - give arg types
+  void ota_upgrade();
+..\source\local\ota_handler\ota_handler.h(48): warning:  #1295-D: Deprecated declaration ota_upgrade_flag - give arg types
+  void ota_upgrade_flag();
+..\source\local\led_handler\led_handler.h(21): warning:  #1295-D: Deprecated declaration led_start_show - give arg types
+  void led_start_show();
+..\source\local\key_handler\key_handler.h(7): warning:  #1295-D: Deprecated declaration convert_keys_to_notes - give arg types
+  void convert_keys_to_notes();
+..\source\local\key_handler\key_handler.h(8): warning:  #1295-D: Deprecated declaration bias_adc_update - give arg types
+  void bias_adc_update();
+..\source\local\key_handler\key_handler.h(9): warning:  #1295-D: Deprecated declaration arpstate_adc - give arg types
+  void arpstate_adc();
+..\source\local\key_handler\key_handler.h(10): warning:  #1295-D: Deprecated declaration bsp_key_gpio_scan - give arg types
+  void bsp_key_gpio_scan();
+..\source\local\kboard\kboard.c(67): warning:  #1-D: last line of file ends without a newline
+  }
+..\source\local\kboard\kboard.c: 9 warnings, 0 errors
+compiling main.c...
+..\source\bsp\bsp_mcu_adc\bsp_mcu_adc.h(11): warning:  #1295-D: Deprecated declaration bsp_mcu_adc_deinit - give arg types
+   void bsp_mcu_adc_deinit();
+..\source\local\firmware\firmware.h(17): warning:  #1295-D: Deprecated declaration send_uid - give arg types
+  void send_uid();
+..\source\local\firmware\firmware.h(18): warning:  #1295-D: Deprecated declaration send_ver - give arg types
+  void send_ver();
+..\source\local\ota_handler\ota_handler.h(47): warning:  #1295-D: Deprecated declaration ota_upgrade - give arg types
+  void ota_upgrade();
+..\source\local\ota_handler\ota_handler.h(48): warning:  #1295-D: Deprecated declaration ota_upgrade_flag - give arg types
+  void ota_upgrade_flag();
+..\source\main\main.c(31): warning:  #1-D: last line of file ends without a newline
+   
+..\source\main\main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=17854 RO-data=2118 RW-data=168 ZI-data=4912  
+FromELF: creating hex file...
+After Build - User command #1: D:\Keil_v5\ARM\ARMCC\bin\fromelf.exe  --bin --output .\Objects\A01-3_V100.bin .\Objects\proj_mdk_at32_kboard.axf
+After Build - User command #2: .\add.bat
+已复制         1 个文件。
+已复制         1 个文件。
+generated: a01_fboard_ota.bin
+C:\Users\15057\Desktop\新建文件夹\FBoard-c2\APP\proj_mdk_at32_kboard\proj_mdk>call ConsoleApplication1 .\binary\a01_fboard_ota.bin  
+Success! CRC32: 0xC62F3557, Firmware Size: 20140 bytes
+C:\Users\15057\Desktop\新建文件夹\FBoard-c2\APP\proj_mdk_at32_kboard\proj_mdk>call ConsoleApplication1 D:\Data\music_source_v2\0_output\a01_fboard_ota.bin  
+Success! CRC32: 0xC62F3557, Firmware Size: 20140 bytes
+".\objects\proj_mdk_at32_kboard.axf" - 0 Error(s), 43 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ArteryTek
+                
+                ArteryTek.AT32F425_DFP.2.1.3
+                ArteryTek AT32F425 Series Device Support,Drivers
+
+<h2>Collection of Component include folders:</h2>
+  D:\Keil_v5\ARM\PACK\ArteryTek\AT32F425_DFP\2.1.3\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

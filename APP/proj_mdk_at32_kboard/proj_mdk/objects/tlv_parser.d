@@ -1,0 +1,10 @@
+.\objects\tlv_parser.o: ..\source\local\anal_device\tlv_parser.c
+.\objects\tlv_parser.o: ..\source\local\anal_device\tlv_parser.h
+.\objects\tlv_parser.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tlv_parser.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\tlv_parser.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\tlv_parser.o: ..\source\protocol\protocol_tlvc.h
+.\objects\tlv_parser.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tlv_parser.o: ..\source\local\ota_device\upgrade.h
+.\objects\tlv_parser.o: ..\source\local\led_device\led_control.h
+.\objects\tlv_parser.o: ..\source\bsp\bsp_pixel_led\bsp_pixel_led.h

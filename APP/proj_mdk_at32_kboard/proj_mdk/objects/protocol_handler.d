@@ -1,0 +1,11 @@
+.\objects\protocol_handler.o: ..\source\local\protocol_handler\protocol_handler.c
+.\objects\protocol_handler.o: ..\source\local\protocol_handler\protocol_handler.h
+.\objects\protocol_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\protocol_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\protocol_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\protocol_handler.o: ..\source\protocol\protocol_tlvc.h
+.\objects\protocol_handler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\protocol_handler.o: ..\source\local\ota_handler\ota_handler.h
+.\objects\protocol_handler.o: ..\source\local\led_handler\led_handler.h
+.\objects\protocol_handler.o: ..\source\bsp\bsp_pixel_led\bsp_pixel_led.h
+.\objects\protocol_handler.o: ..\source\local\firmware\firmware.h

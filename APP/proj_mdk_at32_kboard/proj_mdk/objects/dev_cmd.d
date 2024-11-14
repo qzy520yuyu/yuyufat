@@ -1,0 +1,9 @@
+.\objects\dev_cmd.o: ..\source\local\cmd\dev_cmd.c
+.\objects\dev_cmd.o: ..\source\local\cmd\dev_cmd.h
+.\objects\dev_cmd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dev_cmd.o: ..\source\local\ota_manager\ota_manager.h
+.\objects\dev_cmd.o: ..\source\protocol\protocol_tlvc.h
+.\objects\dev_cmd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dev_cmd.o: ..\source\bsp\bsp_usart\bsp_usart3_dma_txrx.h
+.\objects\dev_cmd.o: ..\source\bsp\bsp_flash\bsp_mcu_flash.h
+.\objects\dev_cmd.o: ..\source\local\firmware\firmware.h

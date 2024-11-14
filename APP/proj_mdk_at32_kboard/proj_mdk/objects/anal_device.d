@@ -1,0 +1,11 @@
+.\objects\anal_device.o: ..\source\local\anal_device\anal_device.c
+.\objects\anal_device.o: ..\source\local\anal_device\anal_device.h
+.\objects\anal_device.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\anal_device.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\anal_device.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\anal_device.o: ..\source\protocol\protocol_tlvc.h
+.\objects\anal_device.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\anal_device.o: ..\source\local\ota_device\ota_device.h
+.\objects\anal_device.o: ..\source\local\led_device\led_device.h
+.\objects\anal_device.o: ..\source\bsp\bsp_pixel_led\bsp_pixel_led.h
+.\objects\anal_device.o: ..\source\local\cmd\cmd_device.h

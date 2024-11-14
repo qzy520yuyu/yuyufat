@@ -1,0 +1,28 @@
+--cpu=Cortex-M4 --fpu=SoftVFP
+".\objects\system_at32f425.o"
+".\objects\startup_at32f425.o"
+".\objects\at32f425_crm.o"
+".\objects\at32f425_gpio.o"
+".\objects\at32f425_usart.o"
+".\objects\at32f425_misc.o"
+".\objects\at32f425_dma.o"
+".\objects\at32f425_adc.o"
+".\objects\at32f425_acc.o"
+".\objects\at32f425_can.o"
+".\objects\at32f425_debug.o"
+".\objects\at32f425_ertc.o"
+".\objects\at32f425_exint.o"
+".\objects\at32f425_flash.o"
+".\objects\at32f425_pwc.o"
+".\objects\at32f425_scfg.o"
+".\objects\at32f425_tmr.o"
+".\objects\at32f425_wdt.o"
+".\objects\at32f425_wwdt.o"
+".\objects\at32f425_int.o"
+".\objects\bsp_flash.o"
+".\objects\bsp_iap.o"
+".\objects\main_1.o"
+--strict --scatter ".\objects\proj_mdk_at32_kboard.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\listings\proj_mdk_at32_kboard.map" -o .\objects\proj_mdk_at32_kboard.axf
